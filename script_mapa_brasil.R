@@ -51,6 +51,8 @@ brasileiropg$Score[is.na(brasileiropg$Score)] <- 0 #substituindo NA por 0
 
 # Gerando o mapa----
 
+display.brewer.all()
+
 pal <- colorBin("Blues",domain = NULL,n=5) #cores do mapa
 
 state_popup <- paste0("<strong>Estado: </strong>", 
@@ -67,7 +69,6 @@ leaflet(data = brasileiropg) %>%
   addLegend("bottomright", pal = pal, values = ~brasileiropg$Score,
             title = "Pontos Conquistados",
             opacity = 1)
-
 
 
 
