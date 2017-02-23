@@ -7,6 +7,6 @@ Referência:
 
 https://dataficacao.wordpress.com/2017/02/21/criando-mapa-brasil-r/
 
-Mapa publicando no Shiny:
+Mapa publicado no Shiny:
 
 https://mvfontes.shinyapps.io/pontoscorridos_campeonatobrasileiro/
